@@ -92,18 +92,18 @@ export function Hero() {
           {/* Right Content - Hero Image */}
           <div className="lg:order-last">
             <div className="relative">
-              <div className="aspect-[4/5] rounded-3xl overflow-hidden glass-effect">
+              <div className="aspect-[4/5] rounded-3xl overflow-hidden shadow-2xl border border-white/20">
                 <div className="relative w-full h-full">
                   <Image
                     src="/images/hero-placeholder.png"
                     alt="Rosa Van Kuyk - Recruitment & Employer Brand Leader"
                     fill
-                    className="object-cover"
+                    className="object-cover transition-transform duration-700 hover:scale-105"
                     sizes="(max-width: 768px) 100vw, 50vw"
                     priority
                   />
-                  {/* Subtle beige overlay */}
-                  <div className="absolute inset-0 bg-brand-beige-accent/15 mix-blend-overlay"></div>
+                  {/* Subtle warm overlay for brand consistency */}
+                  <div className="absolute inset-0 bg-gradient-to-t from-brand-accent/10 via-transparent to-transparent"></div>
                 </div>
               </div>
               {/* Floating elements around image */}
