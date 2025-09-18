@@ -95,7 +95,7 @@ export function Hero() {
               <div className="aspect-[4/5] rounded-3xl overflow-hidden glass-effect">
                 <div className="relative w-full h-full">
                   <Image
-                    src="/images/hero-placeholder.jpg"
+                    src="/images/hero-placeholder.png"
                     alt="Rosa Van Kuyk - Recruitment & Employer Brand Leader"
                     fill
                     className="object-cover"
