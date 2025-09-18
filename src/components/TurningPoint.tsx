@@ -59,6 +59,36 @@ export function TurningPoint() {
                 </div>
               </div>
             </div>
+            
+            {/* Podcast Feature */}
+            <div className="bg-gradient-to-r from-brand-cta/10 to-accent/10 rounded-3xl p-8 glass-effect border border-brand-cta/20">
+              <div className="flex items-start gap-4">
+                <div className="text-brand-charcoal">
+                  <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19 11a7 7 0 01-7 7m0 0a7 7 0 01-7-7m7 7v4m0 0H8m4 0h4m-4-8a3 3 0 01-3-3V5a3 3 0 116 0v6a3 3 0 01-3 3z" />
+                  </svg>
+                </div>
+                <div className="flex-1">
+                  <h4 className="font-heading text-lg heading mb-3">
+                    Sharing the Journey
+                  </h4>
+                  <p className="muted mb-4">
+                    I recently had the privilege of appearing on the <span className="accent">VideoMyJob Employer Brand Podcast</span> with David Macciocca and Grant O'Donnell, where we spoke candidly about my journey from recruiter to employer brand leader and the lessons learned along the way.
+                  </p>
+                  <a 
+                    href="https://youtu.be/lWK72Ff-TbU?si=9109lQ2feMIYlTE4"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 text-brand-cta hover:text-brand-btn transition-colors duration-200 font-medium"
+                  >
+                    <span>Listen to the podcast</span>
+                    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
           </div>
           
           {/* Image Section */}
